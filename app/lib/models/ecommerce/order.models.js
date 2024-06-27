@@ -11,7 +11,7 @@ const orderItemSchema = new Schema({
         require: true,
     }
 })
-const OrderItem = model("OderItem", odeItemSchema)
+const OrderItem = model("OderItem", orderItemSchema)
 
 
 
