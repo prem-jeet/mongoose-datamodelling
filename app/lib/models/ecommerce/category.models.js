@@ -5,7 +5,7 @@ const categorySchema = new Schema(
         name:{
             type:String,
             unique:true,
-            require:true,
+            required:true,
         }
     }
     ,{timestamps: true});
